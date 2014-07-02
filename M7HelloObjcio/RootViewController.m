@@ -23,6 +23,7 @@
         _datas  = @[
                     @[@"临时测试", @"_tempViewController"],
                     @[@"12-1动画解释", @"M_12_1_ViewController"],
+                    @[@"9-3字符串本地化", @"M_9_3_ViewController"],
                     ];
     }
     return self;

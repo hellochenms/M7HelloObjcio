@@ -79,12 +79,12 @@
 #pragma mark - 
 - (void)onTapStartButton{
     // demo1：示范CA动画，并指出直接修改layer的属性来解决动画结束后跳回的问题。
-//    CABasicAnimation *anima = [CABasicAnimation animationWithKeyPath:@"position.x"];
-//    anima.fromValue = @(_someView.center.x);
-//    anima.toValue = @320;
-//    anima.duration = 1;
-//    [_someView.layer addAnimation:anima forKey:nil];
-//    _someView.layer.position = CGPointMake(320, _someView.center.y);
+    CABasicAnimation *anima = [CABasicAnimation animationWithKeyPath:@"position.x"];
+    anima.fromValue = @(_someView.center.x);
+    anima.toValue = @320;
+    anima.duration = 1;
+    [_someView.layer addAnimation:anima forKey:nil];
+    _someView.layer.position = CGPointMake(320, _someView.center.y);
     
     // demo2：指出动画被add时会复制一份，所以add到someView后修改anima再add到twoView上不影响someView；
     // 指出延迟执行动画时，由于我们直接修改了layer的属性，会出现layer先闪到目标位置，延时到了闪回fromValue位置开始动画；
@@ -162,7 +162,7 @@
 }
 - (void)onTapResetButton{
     // demo1
-//    _someView.frame = CGRectMake(10, 100, 40, 40);
+    _someView.frame = CGRectMake(10, 100, 40, 40);
     
     // demo2
 //    _someView.frame = CGRectMake(10, 100, 40, 40);
