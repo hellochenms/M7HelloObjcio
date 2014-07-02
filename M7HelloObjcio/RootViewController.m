@@ -22,6 +22,7 @@
         // Custom initialization
         _datas  = @[
                     @[@"临时测试", @"_tempViewController"],
+                    @[@"12-1动画解释", @"M_12_1_ViewController"],
                     ];
     }
     return self;

@@ -14,22 +14,10 @@
 		992436381962B04100D16C4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 992436371962B04100D16C4B /* main.m */; };
 		9924363C1962B04100D16C4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9924363B1962B04100D16C4B /* AppDelegate.m */; };
 		9924363E1962B04100D16C4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9924363D1962B04100D16C4B /* Images.xcassets */; };
-		992436451962B04100D16C4B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992436441962B04100D16C4B /* XCTest.framework */; };
-		992436461962B04100D16C4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9924362B1962B04100D16C4B /* Foundation.framework */; };
-		992436471962B04100D16C4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9924362F1962B04100D16C4B /* UIKit.framework */; };
 		9924365C1962B0EF00D16C4B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9924365B1962B0EF00D16C4B /* RootViewController.m */; };
 		9924365F1962B1AD00D16C4B /* _tempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9924365E1962B1AD00D16C4B /* _tempViewController.m */; };
+		992436631962B2D200D16C4B /* M_12_1_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 992436621962B2D200D16C4B /* M_12_1_ViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		992436481962B04100D16C4B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 992436201962B04100D16C4B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 992436271962B04100D16C4B;
-			remoteInfo = M7HelloObjcio;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		992436281962B04100D16C4B /* M7HelloObjcio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M7HelloObjcio.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,12 +31,13 @@
 		9924363A1962B04100D16C4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9924363B1962B04100D16C4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9924363D1962B04100D16C4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		992436431962B04100D16C4B /* M7HelloObjcioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = M7HelloObjcioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		992436441962B04100D16C4B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9924365A1962B0EF00D16C4B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		9924365B1962B0EF00D16C4B /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		9924365D1962B1AD00D16C4B /* _tempViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _tempViewController.h; sourceTree = "<group>"; };
 		9924365E1962B1AD00D16C4B /* _tempViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _tempViewController.m; sourceTree = "<group>"; };
+		992436611962B2D200D16C4B /* M_12_1_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M_12_1_ViewController.h; sourceTree = "<group>"; };
+		992436621962B2D200D16C4B /* M_12_1_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M_12_1_ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,16 +51,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		992436401962B04100D16C4B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				992436451962B04100D16C4B /* XCTest.framework in Frameworks */,
-				992436471962B04100D16C4B /* UIKit.framework in Frameworks */,
-				992436461962B04100D16C4B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				992436311962B04100D16C4B /* M7HelloObjcio */,
+				992436641962D6AF00D16C4B /* 3rdparty */,
 				9924362A1962B04100D16C4B /* Frameworks */,
 				992436291962B04100D16C4B /* Products */,
 			);
@@ -88,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				992436281962B04100D16C4B /* M7HelloObjcio.app */,
-				992436431962B04100D16C4B /* M7HelloObjcioTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,6 +92,7 @@
 				9924365B1962B0EF00D16C4B /* RootViewController.m */,
 				9924365D1962B1AD00D16C4B /* _tempViewController.h */,
 				9924365E1962B1AD00D16C4B /* _tempViewController.m */,
+				992436601962B29200D16C4B /* 12-1动画解释 */,
 				9924363D1962B04100D16C4B /* Images.xcassets */,
 				992436321962B04100D16C4B /* Supporting Files */,
 			);
@@ -128,6 +108,22 @@
 				992436391962B04100D16C4B /* M7HelloObjcio-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		992436601962B29200D16C4B /* 12-1动画解释 */ = {
+			isa = PBXGroup;
+			children = (
+				992436611962B2D200D16C4B /* M_12_1_ViewController.h */,
+				992436621962B2D200D16C4B /* M_12_1_ViewController.m */,
+			);
+			name = "12-1动画解释";
+			sourceTree = "<group>";
+		};
+		992436641962D6AF00D16C4B /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = 3rdparty;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,24 +146,6 @@
 			productReference = 992436281962B04100D16C4B /* M7HelloObjcio.app */;
 			productType = "com.apple.product-type.application";
 		};
-		992436421962B04100D16C4B /* M7HelloObjcioTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 992436571962B04100D16C4B /* Build configuration list for PBXNativeTarget "M7HelloObjcioTests" */;
-			buildPhases = (
-				9924363F1962B04100D16C4B /* Sources */,
-				992436401962B04100D16C4B /* Frameworks */,
-				992436411962B04100D16C4B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				992436491962B04100D16C4B /* PBXTargetDependency */,
-			);
-			name = M7HelloObjcioTests;
-			productName = M7HelloObjcioTests;
-			productReference = 992436431962B04100D16C4B /* M7HelloObjcioTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -176,11 +154,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = chenmsm2;
-				TargetAttributes = {
-					992436421962B04100D16C4B = {
-						TestTargetID = 992436271962B04100D16C4B;
-					};
-				};
 			};
 			buildConfigurationList = 992436231962B04100D16C4B /* Build configuration list for PBXProject "M7HelloObjcio" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -195,7 +168,6 @@
 			projectRoot = "";
 			targets = (
 				992436271962B04100D16C4B /* M7HelloObjcio */,
-				992436421962B04100D16C4B /* M7HelloObjcioTests */,
 			);
 		};
 /* End PBXProject section */
@@ -210,13 +182,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		992436411962B04100D16C4B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -226,27 +191,13 @@
 			files = (
 				9924365F1962B1AD00D16C4B /* _tempViewController.m in Sources */,
 				9924363C1962B04100D16C4B /* AppDelegate.m in Sources */,
+				992436631962B2D200D16C4B /* M_12_1_ViewController.m in Sources */,
 				992436381962B04100D16C4B /* main.m in Sources */,
 				9924365C1962B0EF00D16C4B /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9924363F1962B04100D16C4B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		992436491962B04100D16C4B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 992436271962B04100D16C4B /* M7HelloObjcio */;
-			targetProxy = 992436481962B04100D16C4B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		992436341962B04100D16C4B /* InfoPlist.strings */ = {
@@ -340,6 +291,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "M7HelloObjcio/M7HelloObjcio-Prefix.pch";
 				INFOPLIST_FILE = "M7HelloObjcio/M7HelloObjcio-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RBBAnimation",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -353,48 +308,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "M7HelloObjcio/M7HelloObjcio-Prefix.pch";
 				INFOPLIST_FILE = "M7HelloObjcio/M7HelloObjcio-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RBBAnimation",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		992436581962B04100D16C4B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/M7HelloObjcio.app/M7HelloObjcio";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "M7HelloObjcio/M7HelloObjcio-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "M7HelloObjcioTests/M7HelloObjcioTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		992436591962B04100D16C4B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/M7HelloObjcio.app/M7HelloObjcio";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "M7HelloObjcio/M7HelloObjcio-Prefix.pch";
-				INFOPLIST_FILE = "M7HelloObjcioTests/M7HelloObjcioTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -415,15 +334,6 @@
 			buildConfigurations = (
 				992436551962B04100D16C4B /* Debug */,
 				992436561962B04100D16C4B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		992436571962B04100D16C4B /* Build configuration list for PBXNativeTarget "M7HelloObjcioTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				992436581962B04100D16C4B /* Debug */,
-				992436591962B04100D16C4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
