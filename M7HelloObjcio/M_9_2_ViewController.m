@@ -39,8 +39,8 @@
     [self.view addSubview:_someLabel];
     
     // demo1：
-//    NSString *string = [self buildStringWithFormat:@"%d_%.2f_0x%x_%@", 1, 2.2, 10, @"hello"];
-//    _someLabel.text = string;
+    NSString *string = [self buildStringWithFormat:@"%d_%.2f_0x%x_%@", 1, 2.2, 10, @"hello"];
+    _someLabel.text = string;
     
     // demo2：
 //    NSString *string = @"012345\n6789";
@@ -68,27 +68,27 @@
 //    _someLabel.text = destString;
     
     // demo5：分解与连接
-    NSString *srcString = @"0,1,2,3,4,5,6,7,8,9";
-    NSArray *array = [srcString componentsSeparatedByString:@","];
-    NSString *destString = [array componentsJoinedByString:@"-"];
-    _someLabel.text = destString;
+//    NSString *srcString = @"0,1,2,3,4,5,6,7,8,9";
+//    NSArray *array = [srcString componentsSeparatedByString:@","];
+//    NSString *destString = [array componentsJoinedByString:@"-"];
+//    _someLabel.text = destString;
     
     // demo6：遍历目录
-    NSError *error = nil;
-    NSURL *cacheURL = [[NSFileManager defaultManager] URLForDirectory:NSCachesDirectory inDomain:NSUserDomainMask appropriateForURL:nil create:NO error:&error];
-    NSArray *properties = @[NSURLLocalizedNameKey, NSURLCreationDateKey];
-    NSDirectoryEnumerator *dirEnumerator = [[NSFileManager defaultManager] enumeratorAtURL:cacheURL includingPropertiesForKeys:properties options:0 errorHandler:^BOOL(NSURL *url, NSError *error) {
-        NSLog(@"error(%@)  %s", error, __func__);
-        return YES;
-    }];
-    NSURL *fileURL = nil;
-    NSString *name = nil;
-    NSDate *date = nil;
-    for (fileURL in dirEnumerator) {
-        [fileURL getResourceValue:&name forKey:NSURLLocalizedNameKey error:nil];
-        [fileURL getResourceValue:&date forKey:NSURLCreationDateKey error:nil];
-        NSLog(@"name(%@) date(%@)  %s", name, date, __func__);
-    }
+//    NSError *error = nil;
+//    NSURL *cacheURL = [[NSFileManager defaultManager] URLForDirectory:NSCachesDirectory inDomain:NSUserDomainMask appropriateForURL:nil create:NO error:&error];
+//    NSArray *properties = @[NSURLLocalizedNameKey, NSURLCreationDateKey];
+//    NSDirectoryEnumerator *dirEnumerator = [[NSFileManager defaultManager] enumeratorAtURL:cacheURL includingPropertiesForKeys:properties options:0 errorHandler:^BOOL(NSURL *url, NSError *error) {
+//        NSLog(@"error(%@)  %s", error, __func__);
+//        return YES;
+//    }];
+//    NSURL *fileURL = nil;
+//    NSString *name = nil;
+//    NSDate *date = nil;
+//    for (fileURL in dirEnumerator) {
+//        [fileURL getResourceValue:&name forKey:NSURLLocalizedNameKey error:nil];
+//        [fileURL getResourceValue:&date forKey:NSURLCreationDateKey error:nil];
+//        NSLog(@"name(%@) date(%@)  %s", name, date, __func__);
+//    }
 }
 
 // demo1:
