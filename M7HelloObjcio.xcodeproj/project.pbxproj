@@ -21,6 +21,8 @@
 		9924365C1962B0EF00D16C4B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9924365B1962B0EF00D16C4B /* RootViewController.m */; };
 		9924365F1962B1AD00D16C4B /* _tempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9924365E1962B1AD00D16C4B /* _tempViewController.m */; };
 		992436631962B2D200D16C4B /* M_12_1_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 992436621962B2D200D16C4B /* M_12_1_ViewController.m */; };
+		99B62B39196647B6006FE61A /* M_1_4_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B62B38196647B6006FE61A /* M_1_4_ViewController.m */; };
+		99B62B3C196647CC006FE61A /* M_1_4_Sub_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B62B3B196647CC006FE61A /* M_1_4_Sub_ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,10 @@
 		9924365E1962B1AD00D16C4B /* _tempViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _tempViewController.m; sourceTree = "<group>"; };
 		992436611962B2D200D16C4B /* M_12_1_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M_12_1_ViewController.h; sourceTree = "<group>"; };
 		992436621962B2D200D16C4B /* M_12_1_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M_12_1_ViewController.m; sourceTree = "<group>"; };
+		99B62B37196647B6006FE61A /* M_1_4_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M_1_4_ViewController.h; sourceTree = "<group>"; };
+		99B62B38196647B6006FE61A /* M_1_4_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M_1_4_ViewController.m; sourceTree = "<group>"; };
+		99B62B3A196647CC006FE61A /* M_1_4_Sub_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M_1_4_Sub_ViewController.h; sourceTree = "<group>"; };
+		99B62B3B196647CC006FE61A /* M_1_4_Sub_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M_1_4_Sub_ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +148,7 @@
 		992436311962B04100D16C4B /* M7HelloObjcio */ = {
 			isa = PBXGroup;
 			children = (
+				99B62B3619664795006FE61A /* 1-4ViewController容器 */,
 				9924363A1962B04100D16C4B /* AppDelegate.h */,
 				9924363B1962B04100D16C4B /* AppDelegate.m */,
 				9924365A1962B0EF00D16C4B /* RootViewController.h */,
@@ -183,6 +190,17 @@
 			children = (
 			);
 			name = 3rdparty;
+			sourceTree = "<group>";
+		};
+		99B62B3619664795006FE61A /* 1-4ViewController容器 */ = {
+			isa = PBXGroup;
+			children = (
+				99B62B37196647B6006FE61A /* M_1_4_ViewController.h */,
+				99B62B38196647B6006FE61A /* M_1_4_ViewController.m */,
+				99B62B3A196647CC006FE61A /* M_1_4_Sub_ViewController.h */,
+				99B62B3B196647CC006FE61A /* M_1_4_Sub_ViewController.m */,
+			);
+			name = "1-4ViewController容器";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +274,10 @@
 				9924363C1962B04100D16C4B /* AppDelegate.m in Sources */,
 				991E739E1964F0FA00B45F51 /* M_9_2_ViewController.m in Sources */,
 				992436631962B2D200D16C4B /* M_12_1_ViewController.m in Sources */,
+				99B62B3C196647CC006FE61A /* M_1_4_Sub_ViewController.m in Sources */,
 				992436381962B04100D16C4B /* main.m in Sources */,
 				9924365C1962B0EF00D16C4B /* RootViewController.m in Sources */,
+				99B62B39196647B6006FE61A /* M_1_4_ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
