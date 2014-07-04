@@ -41,12 +41,16 @@
 //    NSString *string = NSLocalizedString(@"m_9_3_hello_world", nil);
 //    _someLabel.text = string;
     
-    // demo2：m_9_3_hello_table
+    // demo2：
 //    NSString *string = NSLocalizedStringFromTable(@"m_9_3_hello_table", @"HelloTable", nil);
 //    _someLabel.text = string;
     
-    // demo3：activity-profile.label.run %lu out of %lu completed
-    NSString *string = NSLocalizedString(@"m_9_3_hello_argv_%d_%.2f", nil);
+    // demo3：
+//    NSString *string = NSLocalizedString(@"m_9_3_hello_argv_%d_%.2f", nil);
+//    _someLabel.text = [NSString localizedStringWithFormat:string, 20, 30.0];
+    
+    // demo4：
+    NSString *string = NSLocalizedString(@"m_9_3_hello_argv_modify_order_%d_%.2f", nil);
     _someLabel.text = [NSString localizedStringWithFormat:string, 20, 30.0];
 }
 

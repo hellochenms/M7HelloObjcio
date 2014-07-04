@@ -10,6 +10,7 @@
 		991E738119641AFD00B45F51 /* M_9_3_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 991E738019641AFD00B45F51 /* M_9_3_ViewController.m */; };
 		991E739019642D3900B45F51 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 991E739219642D3900B45F51 /* Localizable.strings */; };
 		991E739719642F9D00B45F51 /* HelloTable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 991E739919642F9D00B45F51 /* HelloTable.strings */; };
+		991E739E1964F0FA00B45F51 /* M_9_2_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 991E739D1964F0FA00B45F51 /* M_9_2_ViewController.m */; };
 		9924362C1962B04100D16C4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9924362B1962B04100D16C4B /* Foundation.framework */; };
 		9924362E1962B04100D16C4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9924362D1962B04100D16C4B /* CoreGraphics.framework */; };
 		992436301962B04100D16C4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9924362F1962B04100D16C4B /* UIKit.framework */; };
@@ -30,6 +31,8 @@
 		991E739419642D4A00B45F51 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		991E739819642F9D00B45F51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/HelloTable.strings; sourceTree = "<group>"; };
 		991E739A19642FA200B45F51 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/HelloTable.strings"; sourceTree = "<group>"; };
+		991E739C1964F0FA00B45F51 /* M_9_2_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M_9_2_ViewController.h; sourceTree = "<group>"; };
+		991E739D1964F0FA00B45F51 /* M_9_2_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M_9_2_ViewController.m; sourceTree = "<group>"; };
 		992436281962B04100D16C4B /* M7HelloObjcio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M7HelloObjcio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9924362B1962B04100D16C4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9924362D1962B04100D16C4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -98,6 +101,15 @@
 			path = strings;
 			sourceTree = "<group>";
 		};
+		991E739B1964F0E100B45F51 /* 9-2玩转字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				991E739C1964F0FA00B45F51 /* M_9_2_ViewController.h */,
+				991E739D1964F0FA00B45F51 /* M_9_2_ViewController.m */,
+			);
+			name = "9-2玩转字符串";
+			sourceTree = "<group>";
+		};
 		9924361F1962B04100D16C4B = {
 			isa = PBXGroup;
 			children = (
@@ -136,8 +148,9 @@
 				9924365B1962B0EF00D16C4B /* RootViewController.m */,
 				9924365D1962B1AD00D16C4B /* _tempViewController.h */,
 				9924365E1962B1AD00D16C4B /* _tempViewController.m */,
-				992436601962B29200D16C4B /* 12-1动画解释 */,
+				991E739B1964F0E100B45F51 /* 9-2玩转字符串 */,
 				991E737E19641ADC00B45F51 /* 9-3字符串本地化 */,
+				992436601962B29200D16C4B /* 12-1动画解释 */,
 				9924363D1962B04100D16C4B /* Images.xcassets */,
 				992436321962B04100D16C4B /* Supporting Files */,
 				991E738219641DCC00B45F51 /* Resources */,
@@ -241,6 +254,7 @@
 				991E738119641AFD00B45F51 /* M_9_3_ViewController.m in Sources */,
 				9924365F1962B1AD00D16C4B /* _tempViewController.m in Sources */,
 				9924363C1962B04100D16C4B /* AppDelegate.m in Sources */,
+				991E739E1964F0FA00B45F51 /* M_9_2_ViewController.m in Sources */,
 				992436631962B2D200D16C4B /* M_12_1_ViewController.m in Sources */,
 				992436381962B04100D16C4B /* main.m in Sources */,
 				9924365C1962B0EF00D16C4B /* RootViewController.m in Sources */,

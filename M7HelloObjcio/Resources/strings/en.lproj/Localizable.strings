@@ -7,3 +7,4 @@
 */
 "m_9_3_hello_world" = "Hello World";
 "m_9_3_hello_argv_%d_%.2f" = "Hello argv0(%d) argv1(%.2f)";
+"m_9_3_hello_argv_modify_order_%d_%.2f" = "Hello argv1(%2$.2f) argv0(%1$d)";
