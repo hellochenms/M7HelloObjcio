@@ -21,6 +21,9 @@
 		9924365C1962B0EF00D16C4B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9924365B1962B0EF00D16C4B /* RootViewController.m */; };
 		9924365F1962B1AD00D16C4B /* _tempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9924365E1962B1AD00D16C4B /* _tempViewController.m */; };
 		992436631962B2D200D16C4B /* M_12_1_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 992436621962B2D200D16C4B /* M_12_1_ViewController.m */; };
+		992627171967E4B60008B773 /* M_2_2_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 992627161967E4B60008B773 /* M_2_2_ViewController.m */; };
+		9926271A1967E5280008B773 /* _MyDeprecatedAsynURLOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 992627191967E5280008B773 /* _MyDeprecatedAsynURLOperation.m */; };
+		9926272D1967FF9A0008B773 /* Objcio22AsynURLOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9926272C1967FF9A0008B773 /* Objcio22AsynURLOperation.m */; };
 		99B62B39196647B6006FE61A /* M_1_4_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B62B38196647B6006FE61A /* M_1_4_ViewController.m */; };
 		99B62B3C196647CC006FE61A /* M_1_4_Sub_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B62B3B196647CC006FE61A /* M_1_4_Sub_ViewController.m */; };
 /* End PBXBuildFile section */
@@ -53,6 +56,12 @@
 		9924365E1962B1AD00D16C4B /* _tempViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _tempViewController.m; sourceTree = "<group>"; };
 		992436611962B2D200D16C4B /* M_12_1_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M_12_1_ViewController.h; sourceTree = "<group>"; };
 		992436621962B2D200D16C4B /* M_12_1_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M_12_1_ViewController.m; sourceTree = "<group>"; };
+		992627151967E4B60008B773 /* M_2_2_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M_2_2_ViewController.h; sourceTree = "<group>"; };
+		992627161967E4B60008B773 /* M_2_2_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M_2_2_ViewController.m; sourceTree = "<group>"; };
+		992627181967E5280008B773 /* _MyDeprecatedAsynURLOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _MyDeprecatedAsynURLOperation.h; sourceTree = "<group>"; };
+		992627191967E5280008B773 /* _MyDeprecatedAsynURLOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _MyDeprecatedAsynURLOperation.m; sourceTree = "<group>"; };
+		9926272B1967FF9A0008B773 /* Objcio22AsynURLOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Objcio22AsynURLOperation.h; sourceTree = "<group>"; };
+		9926272C1967FF9A0008B773 /* Objcio22AsynURLOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Objcio22AsynURLOperation.m; sourceTree = "<group>"; };
 		99B62B37196647B6006FE61A /* M_1_4_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M_1_4_ViewController.h; sourceTree = "<group>"; };
 		99B62B38196647B6006FE61A /* M_1_4_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M_1_4_ViewController.m; sourceTree = "<group>"; };
 		99B62B3A196647CC006FE61A /* M_1_4_Sub_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M_1_4_Sub_ViewController.h; sourceTree = "<group>"; };
@@ -148,13 +157,14 @@
 		992436311962B04100D16C4B /* M7HelloObjcio */ = {
 			isa = PBXGroup;
 			children = (
-				99B62B3619664795006FE61A /* 1-4ViewController容器 */,
 				9924363A1962B04100D16C4B /* AppDelegate.h */,
 				9924363B1962B04100D16C4B /* AppDelegate.m */,
 				9924365A1962B0EF00D16C4B /* RootViewController.h */,
 				9924365B1962B0EF00D16C4B /* RootViewController.m */,
 				9924365D1962B1AD00D16C4B /* _tempViewController.h */,
 				9924365E1962B1AD00D16C4B /* _tempViewController.m */,
+				99B62B3619664795006FE61A /* 1-4ViewController容器 */,
+				992627141967E47F0008B773 /* 2-2并发常见实践 */,
 				991E739B1964F0E100B45F51 /* 9-2玩转字符串 */,
 				991E737E19641ADC00B45F51 /* 9-3字符串本地化 */,
 				992436601962B29200D16C4B /* 12-1动画解释 */,
@@ -190,6 +200,19 @@
 			children = (
 			);
 			name = 3rdparty;
+			sourceTree = "<group>";
+		};
+		992627141967E47F0008B773 /* 2-2并发常见实践 */ = {
+			isa = PBXGroup;
+			children = (
+				992627151967E4B60008B773 /* M_2_2_ViewController.h */,
+				992627161967E4B60008B773 /* M_2_2_ViewController.m */,
+				9926272B1967FF9A0008B773 /* Objcio22AsynURLOperation.h */,
+				9926272C1967FF9A0008B773 /* Objcio22AsynURLOperation.m */,
+				992627181967E5280008B773 /* _MyDeprecatedAsynURLOperation.h */,
+				992627191967E5280008B773 /* _MyDeprecatedAsynURLOperation.m */,
+			);
+			name = "2-2并发常见实践";
 			sourceTree = "<group>";
 		};
 		99B62B3619664795006FE61A /* 1-4ViewController容器 */ = {
@@ -271,10 +294,13 @@
 			files = (
 				991E738119641AFD00B45F51 /* M_9_3_ViewController.m in Sources */,
 				9924365F1962B1AD00D16C4B /* _tempViewController.m in Sources */,
+				992627171967E4B60008B773 /* M_2_2_ViewController.m in Sources */,
 				9924363C1962B04100D16C4B /* AppDelegate.m in Sources */,
 				991E739E1964F0FA00B45F51 /* M_9_2_ViewController.m in Sources */,
+				9926271A1967E5280008B773 /* _MyDeprecatedAsynURLOperation.m in Sources */,
 				992436631962B2D200D16C4B /* M_12_1_ViewController.m in Sources */,
 				99B62B3C196647CC006FE61A /* M_1_4_Sub_ViewController.m in Sources */,
+				9926272D1967FF9A0008B773 /* Objcio22AsynURLOperation.m in Sources */,
 				992436381962B04100D16C4B /* main.m in Sources */,
 				9924365C1962B0EF00D16C4B /* RootViewController.m in Sources */,
 				99B62B39196647B6006FE61A /* M_1_4_ViewController.m in Sources */,
