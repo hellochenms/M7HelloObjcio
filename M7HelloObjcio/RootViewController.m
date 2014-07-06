@@ -24,6 +24,7 @@
                     @[@"临时测试", @"_tempViewController"],
                     @[@"1-4ViewController容器", @"M_1_4_ViewController"],
                     @[@"2-2并发常见实践", @"M_2_2_ViewController"],
+                    @[@"7-1基础集合类", @"M_7_1_ViewController"],
                     @[@"9-2玩转字符串", @"M_9_2_ViewController"],
                     @[@"9-3字符串本地化", @"M_9_3_ViewController"],
                     @[@"12-1动画解释", @"M_12_1_ViewController"],
