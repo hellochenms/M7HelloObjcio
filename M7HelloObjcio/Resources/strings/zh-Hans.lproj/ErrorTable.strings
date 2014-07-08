@@ -1,0 +1,10 @@
+/* 
+  ErrorTable.strings
+  M7HelloObjcio
+
+  Created by Chen Meisong on 14-7-8.
+  Copyright (c) 2014年 chenmsm2. All rights reserved.
+*/
+"NetworkErrorText" = "网络请求失败!";
+"BusinessErrorText1000" = "业务逻辑问题 1000!";
+"BusinessErrorText1001" = "业务逻辑问题 1001!";

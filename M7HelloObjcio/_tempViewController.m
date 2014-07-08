@@ -18,8 +18,6 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        NSOperation *op = nil;
-        [op addDependency:nil];
     }
     return self;
 }
