@@ -9,6 +9,7 @@
 #import "_tempViewController.h"
 
 @interface _tempViewController ()
+@property (nonatomic) UIWebView *webView;
 @end
 
 @implementation _tempViewController
@@ -30,6 +31,15 @@
     if (isIOS7) {
         self.edgesForExtendedLayout = UIRectEdgeNone;
     }
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(10, 10, 100, 30);
+    button.backgroundColor = [UIColor blueColor];
+    [button setTitle:@"更新数据" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(onTapButton) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+}
+
+- (void)onTapButton{
 }
 
 @end

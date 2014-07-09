@@ -30,6 +30,7 @@
                     @[@"12-1动画解释", @"M_12_1_ViewController"],
                     @[@"13-1MMVM架构", @"M_13_1_ViewController"],
                     @[@"book-14-RESTful架构", @"Book14ViewController"],
+                    @[@"book-24-数据模型缓存", @"Book24ViewController"],
                     ];
     }
     return self;
