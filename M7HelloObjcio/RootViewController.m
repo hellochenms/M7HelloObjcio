@@ -28,6 +28,7 @@
                     @[@"9-2玩转字符串", @"M_9_2_ViewController"],
                     @[@"9-3字符串本地化", @"M_9_3_ViewController"],
                     @[@"12-1动画解释", @"M_12_1_ViewController"],
+                    @[@"13-1MMVM架构", @"M_13_1_ViewController"],
                     @[@"book-14-RESTful架构", @"Book14ViewController"],
                     ];
     }

@@ -24,6 +24,10 @@
 		992627171967E4B60008B773 /* M_2_2_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 992627161967E4B60008B773 /* M_2_2_ViewController.m */; };
 		9926271A1967E5280008B773 /* _MyDeprecatedAsynURLOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 992627191967E5280008B773 /* _MyDeprecatedAsynURLOperation.m */; };
 		9926272D1967FF9A0008B773 /* Objcio22AsynURLOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9926272C1967FF9A0008B773 /* Objcio22AsynURLOperation.m */; };
+		9937BF34196CDBFB00F0B15D /* M_13_1_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9937BF33196CDBFB00F0B15D /* M_13_1_ViewController.m */; };
+		9937BF37196CDC1300F0B15D /* M_13_1View.m in Sources */ = {isa = PBXBuildFile; fileRef = 9937BF36196CDC1300F0B15D /* M_13_1View.m */; };
+		9937BF3A196CDC3100F0B15D /* PersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9937BF39196CDC3100F0B15D /* PersonModel.m */; };
+		9937BF3D196CDC3E00F0B15D /* PersonViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9937BF3C196CDC3E00F0B15D /* PersonViewModel.m */; };
 		994C967C196BA12C00616C98 /* book_info.txt in Resources */ = {isa = PBXBuildFile; fileRef = 994C967B196BA12C00616C98 /* book_info.txt */; };
 		994C96DB196BD04200616C98 /* NSAlert+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 994C96C6196BD04200616C98 /* NSAlert+MKNetworkKitAdditions.m */; };
 		994C96DC196BD04200616C98 /* NSData+MKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 994C96C8196BD04200616C98 /* NSData+MKBase64.m */; };
@@ -85,6 +89,14 @@
 		992627191967E5280008B773 /* _MyDeprecatedAsynURLOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _MyDeprecatedAsynURLOperation.m; sourceTree = "<group>"; };
 		9926272B1967FF9A0008B773 /* Objcio22AsynURLOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Objcio22AsynURLOperation.h; sourceTree = "<group>"; };
 		9926272C1967FF9A0008B773 /* Objcio22AsynURLOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Objcio22AsynURLOperation.m; sourceTree = "<group>"; };
+		9937BF32196CDBFB00F0B15D /* M_13_1_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M_13_1_ViewController.h; sourceTree = "<group>"; };
+		9937BF33196CDBFB00F0B15D /* M_13_1_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M_13_1_ViewController.m; sourceTree = "<group>"; };
+		9937BF35196CDC1300F0B15D /* M_13_1View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M_13_1View.h; sourceTree = "<group>"; };
+		9937BF36196CDC1300F0B15D /* M_13_1View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M_13_1View.m; sourceTree = "<group>"; };
+		9937BF38196CDC3100F0B15D /* PersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonModel.h; sourceTree = "<group>"; };
+		9937BF39196CDC3100F0B15D /* PersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonModel.m; sourceTree = "<group>"; };
+		9937BF3B196CDC3E00F0B15D /* PersonViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonViewModel.h; sourceTree = "<group>"; };
+		9937BF3C196CDC3E00F0B15D /* PersonViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewModel.m; sourceTree = "<group>"; };
 		994C967B196BA12C00616C98 /* book_info.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = book_info.txt; sourceTree = "<group>"; };
 		994C96C5196BD04200616C98 /* NSAlert+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAlert+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
 		994C96C6196BD04200616C98 /* NSAlert+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAlert+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
@@ -240,6 +252,7 @@
 				991E739B1964F0E100B45F51 /* 9-2玩转字符串 */,
 				991E737E19641ADC00B45F51 /* 9-3字符串本地化 */,
 				992436601962B29200D16C4B /* 12-1动画解释 */,
+				9937BF31196CDA8A00F0B15D /* 13-1MMVM架构 */,
 				994C967B196BA12C00616C98 /* book_info.txt */,
 				994C967A196BA0B400616C98 /* book-14-RESTful架构 */,
 				9924363D1962B04100D16C4B /* Images.xcassets */,
@@ -288,6 +301,21 @@
 				992627191967E5280008B773 /* _MyDeprecatedAsynURLOperation.m */,
 			);
 			name = "2-2并发常见实践";
+			sourceTree = "<group>";
+		};
+		9937BF31196CDA8A00F0B15D /* 13-1MMVM架构 */ = {
+			isa = PBXGroup;
+			children = (
+				9937BF32196CDBFB00F0B15D /* M_13_1_ViewController.h */,
+				9937BF33196CDBFB00F0B15D /* M_13_1_ViewController.m */,
+				9937BF35196CDC1300F0B15D /* M_13_1View.h */,
+				9937BF36196CDC1300F0B15D /* M_13_1View.m */,
+				9937BF38196CDC3100F0B15D /* PersonModel.h */,
+				9937BF39196CDC3100F0B15D /* PersonModel.m */,
+				9937BF3B196CDC3E00F0B15D /* PersonViewModel.h */,
+				9937BF3C196CDC3E00F0B15D /* PersonViewModel.m */,
+			);
+			name = "13-1MMVM架构";
 			sourceTree = "<group>";
 		};
 		994C967A196BA0B400616C98 /* book-14-RESTful架构 */ = {
@@ -488,10 +516,14 @@
 				994C96E1196BD04200616C98 /* UIImageView+MKNetworkKitAdditions.m in Sources */,
 				991E739E1964F0FA00B45F51 /* M_9_2_ViewController.m in Sources */,
 				99D29DA219697E74001E7DC1 /* M_7_1_ViewController.m in Sources */,
+				9937BF37196CDC1300F0B15D /* M_13_1View.m in Sources */,
 				994C96DD196BD04200616C98 /* NSDate+RFC1123.m in Sources */,
 				9926271A1967E5280008B773 /* _MyDeprecatedAsynURLOperation.m in Sources */,
 				994C96FA196BD19900616C98 /* M7Error.m in Sources */,
+				9937BF3A196CDC3100F0B15D /* PersonModel.m in Sources */,
 				992436631962B2D200D16C4B /* M_12_1_ViewController.m in Sources */,
+				9937BF34196CDBFB00F0B15D /* M_13_1_ViewController.m in Sources */,
+				9937BF3D196CDC3E00F0B15D /* PersonViewModel.m in Sources */,
 				994C96E0196BD04200616C98 /* UIAlertView+MKNetworkKitAdditions.m in Sources */,
 				994C96DE196BD04200616C98 /* NSDictionary+RequestEncoding.m in Sources */,
 				994C96F1196BD11C00616C98 /* M7Engine.m in Sources */,
