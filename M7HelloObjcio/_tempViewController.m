@@ -8,8 +8,7 @@
 
 #import "_tempViewController.h"
 
-@interface _tempViewController ()
-@property (nonatomic) UIWebView *webView;
+@interface _tempViewController ()<UITableViewDataSource, UITableViewDelegate>
 @end
 
 @implementation _tempViewController
@@ -37,9 +36,9 @@
     [button setTitle:@"点击" forState:UIControlStateNormal];
     [button addTarget:self action:@selector(onTapButton) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
+    
 }
 
-- (void)onTapButton{
-}
+- (void)onTapButton{}
 
 @end

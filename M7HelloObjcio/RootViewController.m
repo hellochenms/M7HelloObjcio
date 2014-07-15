@@ -31,6 +31,7 @@
                     @[@"13-1MMVM架构", @"M_13_1_ViewController"],
                     @[@"book-14-RESTful架构", @"Book14ViewController"],
                     @[@"book-24-数据模型缓存", @"Book24ViewController"],
+                    @[@"m-detailTextLabel的坑", @"MDetailTextLabelKengViewController"],
                     ];
     }
     return self;

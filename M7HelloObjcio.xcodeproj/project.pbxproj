@@ -50,6 +50,9 @@
 		994C9700196BD1E200616C98 /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 994C96FF196BD1E200616C98 /* MenuItem.m */; };
 		994C9703196BD1EC00616C98 /* Review.m in Sources */ = {isa = PBXBuildFile; fileRef = 994C9702196BD1EC00616C98 /* Review.m */; };
 		994C9724196BF3C000616C98 /* ErrorTable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 994C9726196BF3C000616C98 /* ErrorTable.strings */; };
+		998614EC19750F270089A1D2 /* MDetailTextLabelKengViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 998614EB19750F270089A1D2 /* MDetailTextLabelKengViewController.m */; };
+		998A8B571974FAA300562F37 /* MDetailTextLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 998A8B561974FAA300562F37 /* MDetailTextLabelCell.m */; };
+		998A8B5A1974FE4100562F37 /* MDetailTextLabelSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 998A8B591974FE4100562F37 /* MDetailTextLabelSingleton.m */; };
 		99B62B39196647B6006FE61A /* M_1_4_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B62B38196647B6006FE61A /* M_1_4_ViewController.m */; };
 		99B62B3C196647CC006FE61A /* M_1_4_Sub_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B62B3B196647CC006FE61A /* M_1_4_Sub_ViewController.m */; };
 		99C05A48196E80BA0038564E /* M7AppCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C05A45196E80BA0038564E /* M7AppCache.m */; };
@@ -144,6 +147,12 @@
 		994C9702196BD1EC00616C98 /* Review.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Review.m; sourceTree = "<group>"; };
 		994C9725196BF3C000616C98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ErrorTable.strings; sourceTree = "<group>"; };
 		994C9727196BF3C100616C98 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ErrorTable.strings"; sourceTree = "<group>"; };
+		998614EA19750F270089A1D2 /* MDetailTextLabelKengViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDetailTextLabelKengViewController.h; sourceTree = "<group>"; };
+		998614EB19750F270089A1D2 /* MDetailTextLabelKengViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDetailTextLabelKengViewController.m; sourceTree = "<group>"; };
+		998A8B551974FAA300562F37 /* MDetailTextLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDetailTextLabelCell.h; sourceTree = "<group>"; };
+		998A8B561974FAA300562F37 /* MDetailTextLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDetailTextLabelCell.m; sourceTree = "<group>"; };
+		998A8B581974FE4100562F37 /* MDetailTextLabelSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDetailTextLabelSingleton.h; sourceTree = "<group>"; };
+		998A8B591974FE4100562F37 /* MDetailTextLabelSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDetailTextLabelSingleton.m; sourceTree = "<group>"; };
 		99B62B37196647B6006FE61A /* M_1_4_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M_1_4_ViewController.h; sourceTree = "<group>"; };
 		99B62B38196647B6006FE61A /* M_1_4_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M_1_4_ViewController.m; sourceTree = "<group>"; };
 		99B62B3A196647CC006FE61A /* M_1_4_Sub_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M_1_4_Sub_ViewController.h; sourceTree = "<group>"; };
@@ -276,6 +285,7 @@
 				9937BF31196CDA8A00F0B15D /* 13-1MMVM架构 */,
 				99C05A41196E7FE40038564E /* book-14-RESTful架构 */,
 				99C05A42196E80020038564E /* book-24-数据模型缓存 */,
+				998614E919750D040089A1D2 /* m-detailTextLabel的坑 */,
 				994C967B196BA12C00616C98 /* book_info.txt */,
 				9924363D1962B04100D16C4B /* Images.xcassets */,
 				992436321962B04100D16C4B /* Supporting Files */,
@@ -450,6 +460,19 @@
 			name = Error;
 			sourceTree = "<group>";
 		};
+		998614E919750D040089A1D2 /* m-detailTextLabel的坑 */ = {
+			isa = PBXGroup;
+			children = (
+				998614EA19750F270089A1D2 /* MDetailTextLabelKengViewController.h */,
+				998614EB19750F270089A1D2 /* MDetailTextLabelKengViewController.m */,
+				998A8B551974FAA300562F37 /* MDetailTextLabelCell.h */,
+				998A8B561974FAA300562F37 /* MDetailTextLabelCell.m */,
+				998A8B581974FE4100562F37 /* MDetailTextLabelSingleton.h */,
+				998A8B591974FE4100562F37 /* MDetailTextLabelSingleton.m */,
+			);
+			name = "m-detailTextLabel的坑";
+			sourceTree = "<group>";
+		};
 		99B62B3619664795006FE61A /* 1-4ViewController容器 */ = {
 			isa = PBXGroup;
 			children = (
@@ -576,17 +599,20 @@
 				99C05A55196E80D10038564E /* CacheReview.m in Sources */,
 				99C05A58196E80DA0038564E /* Book24ViewController.m in Sources */,
 				994C96DF196BD04200616C98 /* NSString+MKNetworkKitAdditions.m in Sources */,
+				998614EC19750F270089A1D2 /* MDetailTextLabelKengViewController.m in Sources */,
 				991E738119641AFD00B45F51 /* M_9_3_ViewController.m in Sources */,
 				9924365F1962B1AD00D16C4B /* _tempViewController.m in Sources */,
 				994C96DC196BD04200616C98 /* NSData+MKBase64.m in Sources */,
 				994C96E2196BD04200616C98 /* MKNetworkEngine.m in Sources */,
 				992627171967E4B60008B773 /* M_2_2_ViewController.m in Sources */,
 				994C9700196BD1E200616C98 /* MenuItem.m in Sources */,
+				998A8B5A1974FE4100562F37 /* MDetailTextLabelSingleton.m in Sources */,
 				994C96F7196BD15B00616C98 /* M7JSONModel.m in Sources */,
 				9924363C1962B04100D16C4B /* AppDelegate.m in Sources */,
 				994C96E1196BD04200616C98 /* UIImageView+MKNetworkKitAdditions.m in Sources */,
 				99C05A48196E80BA0038564E /* M7AppCache.m in Sources */,
 				991E739E1964F0FA00B45F51 /* M_9_2_ViewController.m in Sources */,
+				998A8B571974FAA300562F37 /* MDetailTextLabelCell.m in Sources */,
 				99D29DA219697E74001E7DC1 /* M_7_1_ViewController.m in Sources */,
 				9937BF37196CDC1300F0B15D /* M_13_1View.m in Sources */,
 				994C96DD196BD04200616C98 /* NSDate+RFC1123.m in Sources */,
