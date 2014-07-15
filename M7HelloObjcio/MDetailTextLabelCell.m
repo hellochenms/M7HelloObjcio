@@ -38,6 +38,11 @@
 //        坑：使用UITableViewCell的原生子view detailTextLabel时，如果将其text置为nil，再将text置为某字符串，字符串不显示，可能系统在text == nil时对该view的frame做了处理，一直到下次该cell被reload时text才会再显示；
 //        由此方式一是没数据时不将text置nil，而是置@" "（有空格不是空串）；
 //        方式二就是不使用detailTextLabel，用自定义的子view；
+        
+        // 再注：detailTextLabel的优势是当cell进入编辑模式时，能很好的调整位置；
+        // 如果是自定义的子view，很容易和系统的子view（如拖动排序的view）重叠；
+        // 如果有编辑需求，还是可以用detailTextLabel，而数据置空时用置@" "替代；
+        
         if (isNil) {
             self.detailTextLabel.text = nil;
         }else{
