@@ -7,11 +7,12 @@
 //
 
 #import "MKNetworkEngine.h"
+@class M7NetworkOperation;
 
 typedef void (^M7EArrayBlock) (NSArray *array);
 typedef void (^M7EErrorBlock) (NSError *error);
 
 @interface M7Engine : MKNetworkEngine
 + (M7Engine *)sharedInstance;
-- (MKNetworkOperation *)requestMenuItemsWithCompletionHandler:(M7EArrayBlock)arrayBlock errorHandler:(M7EErrorBlock)errorBlock;
+- (M7NetworkOperation *)requestMenuItemsWithCompletionHandler:(M7EArrayBlock)arrayBlock errorHandler:(M7EErrorBlock)errorBlock;
 @end

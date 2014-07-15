@@ -8,3 +8,4 @@
 "NetworkErrorText" = "Network Error!";
 "BusinessErrorText1000" = "BusinessError 1000!";
 "BusinessErrorText1001" = "BusinessError 1001!";
+"UnknownBusinessErrorText" = "UnknownBusinessErrorText!";

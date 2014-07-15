@@ -25,7 +25,11 @@ static NSDictionary *s_codeKeyStringMapping = nil;
 
 - (NSString *)description{
     if ([self.domain isEqualToString:kM7EErrorDomainBusiness]) {
-        return NSLocalizedStringFromTable([M7Error keyStringFromCode:self.code], kErrorTableName, nil);
+        NSString *errorMsg = NSLocalizedStringFromTable([M7Error keyStringFromCode:self.code], kErrorTableName, nil);
+        if ([errorMsg length] <= 0) {
+            errorMsg = NSLocalizedStringFromTable(@"UnknownBusinessErrorText", kErrorTableName, nil);
+        }
+        return errorMsg;
     }else if ([self.domain isEqualToString:kM7EErrorDomainNetwork]) {
         NSString *errorString = NSLocalizedStringFromTable(@"NetworkErrorText", @"ErrorTable", nil);
         return errorString;

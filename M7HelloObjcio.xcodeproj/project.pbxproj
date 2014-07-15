@@ -28,6 +28,7 @@
 		9937BF37196CDC1300F0B15D /* M_13_1View.m in Sources */ = {isa = PBXBuildFile; fileRef = 9937BF36196CDC1300F0B15D /* M_13_1View.m */; };
 		9937BF3A196CDC3100F0B15D /* PersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9937BF39196CDC3100F0B15D /* PersonModel.m */; };
 		9937BF3D196CDC3E00F0B15D /* PersonViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9937BF3C196CDC3E00F0B15D /* PersonViewModel.m */; };
+		994069F519751B3B00814D5A /* M7NetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 994069F419751B3B00814D5A /* M7NetworkOperation.m */; };
 		994C967C196BA12C00616C98 /* book_info.txt in Resources */ = {isa = PBXBuildFile; fileRef = 994C967B196BA12C00616C98 /* book_info.txt */; };
 		994C96DB196BD04200616C98 /* NSAlert+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 994C96C6196BD04200616C98 /* NSAlert+MKNetworkKitAdditions.m */; };
 		994C96DC196BD04200616C98 /* NSData+MKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 994C96C8196BD04200616C98 /* NSData+MKBase64.m */; };
@@ -107,6 +108,8 @@
 		9937BF39196CDC3100F0B15D /* PersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonModel.m; sourceTree = "<group>"; };
 		9937BF3B196CDC3E00F0B15D /* PersonViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonViewModel.h; sourceTree = "<group>"; };
 		9937BF3C196CDC3E00F0B15D /* PersonViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewModel.m; sourceTree = "<group>"; };
+		994069F319751B3B00814D5A /* M7NetworkOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M7NetworkOperation.h; sourceTree = "<group>"; };
+		994069F419751B3B00814D5A /* M7NetworkOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M7NetworkOperation.m; sourceTree = "<group>"; };
 		994C967B196BA12C00616C98 /* book_info.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = book_info.txt; sourceTree = "<group>"; };
 		994C96C5196BD04200616C98 /* NSAlert+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAlert+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
 		994C96C6196BD04200616C98 /* NSAlert+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAlert+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
@@ -434,6 +437,8 @@
 			children = (
 				994C96EF196BD11C00616C98 /* M7Engine.h */,
 				994C96F0196BD11C00616C98 /* M7Engine.m */,
+				994069F319751B3B00814D5A /* M7NetworkOperation.h */,
+				994069F419751B3B00814D5A /* M7NetworkOperation.m */,
 			);
 			name = Engine;
 			sourceTree = "<group>";
@@ -614,6 +619,7 @@
 				991E739E1964F0FA00B45F51 /* M_9_2_ViewController.m in Sources */,
 				998A8B571974FAA300562F37 /* MDetailTextLabelCell.m in Sources */,
 				99D29DA219697E74001E7DC1 /* M_7_1_ViewController.m in Sources */,
+				994069F519751B3B00814D5A /* M7NetworkOperation.m in Sources */,
 				9937BF37196CDC1300F0B15D /* M_13_1View.m in Sources */,
 				994C96DD196BD04200616C98 /* NSDate+RFC1123.m in Sources */,
 				9926271A1967E5280008B773 /* _MyDeprecatedAsynURLOperation.m in Sources */,
@@ -769,7 +775,7 @@
 					"$(PROJECT_DIR)/RBBAnimation",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1DB3A357-D874-48B7-935D-7CEF6C83F733";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -787,7 +793,7 @@
 					"$(PROJECT_DIR)/RBBAnimation",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1DB3A357-D874-48B7-935D-7CEF6C83F733";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
